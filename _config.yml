@@ -39,12 +39,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: ""
+  facebook: 
+  github: 
+  twitter: 
+  patreon: 
+  youtube: 
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -52,7 +52,7 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+#  telephone: 
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
@@ -189,7 +189,12 @@ date_format: "%B %-d, %Y"
 timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:year-:month-:day-:
+
+
+
+
+/
 paginate: 5
 
 kramdown:
